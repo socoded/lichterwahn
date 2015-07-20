@@ -10,5 +10,5 @@ var local = repl.start("socoded λ lichterwahn >");
 var lights = require('../lib/client');
 local.context.lights = function(i,r,g,b) {
   lights(i,r,g,b)
-  console.log('Set led ' + i + ' to R: '+r+' G: '+g+' B: '+b)
-} 
+  return 'Set led ' + i + ' to R: ' + r + ' G: ' + g + ' B: '+ b;
+}
