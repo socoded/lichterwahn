@@ -35,3 +35,5 @@ lights(led_id, red, green, blue)
 ```
 
 ## Have fun and happy hacking!
+
+The order loves you <3
