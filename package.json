@@ -1,0 +1,26 @@
+{
+  "name": "lichterwahn",
+  "version": "1.0.0",
+  "description": "So Coded baloon lights control library",
+  "main": "index.js",
+  "bin" : { "lichterwahn" : "./bin/lichterwahn.js" },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/socoded/lichterwahn.git"
+  },
+  "keywords": [
+    "so",
+    "coded",
+    "lights",
+    "balloon"
+  ],
+  "author": "Ole Michaelis <ole@socoded.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/socoded/lichterwahn/issues"
+  },
+  "homepage": "https://github.com/socoded/lichterwahn#readme"
+}
