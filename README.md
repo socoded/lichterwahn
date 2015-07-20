@@ -21,7 +21,10 @@ We also encourage you to use the library programmatically, like:
 ```javascript
 var LED_COUNT = 70
 
-var lights = require('lichterwahn')
+var lichterwahn = require('lichterwahn')
+
+// this is your assigned ID for the simulator, zero is the actual lights installation
+var lights = lichterwahn(0)
 
 for (var i = 0; i < LED_COUNT; i++) {
   lights(i, 150, 200, 120)

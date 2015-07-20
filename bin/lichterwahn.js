@@ -7,7 +7,7 @@ var net = require("net"),
 var local = repl.start("socoded λ lichterwahn >");
 
 // Exposing the function "mood" to the local REPL's context.
-var lights = require('../lib/client');
+var lights = require('../lib/client')(process.env.LED_TARGET || 0);
 local.context.lights = function(i,r,g,b) {
   lights(i,r,g,b)
   return 'Set led ' + i + ' to R: ' + r + ' G: ' + g + ' B: '+ b;
